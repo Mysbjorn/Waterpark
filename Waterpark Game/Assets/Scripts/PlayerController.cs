@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
     public float moveSpeed;
     public float jumpForce;
     public float gravityScale = 5f;
@@ -19,6 +20,10 @@ public class PlayerController : MonoBehaviour
 
     public Animator anim;
 
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         theCam = Camera.main;
@@ -32,6 +37,7 @@ public class PlayerController : MonoBehaviour
         moveDirection.y = yStore;
         if (charController.isGrounded)
         {
+            moveDirection.y = 0f;
            if (Input.GetButtonDown("Jump"))
            {
                 moveDirection.y = jumpForce;
