@@ -20,7 +20,8 @@ public class Checkpoint : MonoBehaviour
             Checkpoint[] allCP = FindObjectsOfType<Checkpoint>();
             for (int i = 0; i < allCP.Length; i++)
             {
-                allCP
+                allCP[i].cpOff.SetActive(true);
+                allCP[i].cpOn.SetActive(false);
             }
             cpOff.SetActive(false);
             cpOn.SetActive(true);
