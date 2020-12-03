@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public static UIManager instance;
 
     public Image blackScreen;
+    public Image swimScreen;
     public float FadeSpeed = 1.5f;
     public bool fadeToBlack, fadeFromBlack;
     public TextMeshProUGUI healthText;
@@ -22,7 +23,7 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-        
+        swimScreen.enabled = false;
     }
 
     // Update is called once per frame
@@ -46,6 +47,20 @@ public class UIManager : MonoBehaviour
             {
                 fadeFromBlack = false;
             }
+        }
+
+        if (PlayerController.instance.swimming == true)
+        {
+            swimScreen.enabled = true;
+
+
+        }
+
+        if (PlayerController.instance.swimming == false)
+        {
+            swimScreen.enabled = false;
+
+
         }
     }
 

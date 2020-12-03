@@ -25,6 +25,10 @@ public class PlayerController : MonoBehaviour
     private float knockbackCounter;
     public Vector2 knockbackPower;
 
+    public bool swimming;
+    public float swimMoveSpeed;
+    public float swimJumpForce;
+
     public GameObject[] playerPieces;
 
     private void Awake()
@@ -66,6 +70,21 @@ public class PlayerController : MonoBehaviour
             playerModel.transform.rotation = Quaternion.Slerp(playerModel.transform.rotation, newRotation , rotateSpeed * Time.deltaTime);
         }
         }
+        if (swimming == true)
+        {
+            
+            gravityScale = 2f;
+            jumpForce = 14;
+            moveSpeed = 10;
+        }
+
+        if (swimming == false)
+        {
+            gravityScale = 5f;
+            jumpForce = 14;
+            moveSpeed = 15;
+        }
+
 
         if (isKnocking)
         {
