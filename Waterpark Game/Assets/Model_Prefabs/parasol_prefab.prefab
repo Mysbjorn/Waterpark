@@ -14,11 +14,11 @@ GameObject:
   - component: {fileID: 6288852258039828292}
   - component: {fileID: 5083583296396884796}
   m_Layer: 0
-  m_Name: parasol
+  m_Name: parasol_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &620046760286617635
 Transform:

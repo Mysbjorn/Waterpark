@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 6194728363383073189}
   - component: {fileID: 1356707742213346983}
   m_Layer: 0
-  m_Name: onsen_intro_ground_mesh
+  m_Name: onsen_intro_ground_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5022415719705596618
 Transform:

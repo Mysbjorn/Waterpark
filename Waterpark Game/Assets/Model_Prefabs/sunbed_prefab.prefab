@@ -13,11 +13,11 @@ GameObject:
   - component: {fileID: 1646539211352747618}
   - component: {fileID: 3583766183164010764}
   m_Layer: 0
-  m_Name: sunbed
+  m_Name: sunbed_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &473584314642158861
 Transform:
@@ -113,7 +113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6035454541179429528
 Transform:
