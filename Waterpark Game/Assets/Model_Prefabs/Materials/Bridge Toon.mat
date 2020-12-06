@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sign_Toon
+  m_Name: Bridge Toon
   m_Shader: {fileID: -6465566751694194690, guid: 9b88636ae80bf5c4a90fa670b487f5bf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_5D9784B0:
-        m_Texture: {fileID: 2800000, guid: c7f70c34492c7264bbb84d339b60d96c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8551d672afeb1224eabeb547b47c1299, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -52,10 +52,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_13182C61: 0.26
-    - Vector1_717E75F6: 0
-    - Vector1_8A356CD7: 0
-    - Vector1_F9839924: 0.433
+    - Vector1_13182C61: 0.34
+    - Vector1_717E75F6: 0.581
+    - Vector1_8A356CD7: 0.303
+    - Vector1_F9839924: 0.67
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1

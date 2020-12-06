@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sign_Toon 2
+  m_Name: Sign_Toon 1
   m_Shader: {fileID: -6465566751694194690, guid: 9b88636ae80bf5c4a90fa670b487f5bf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_5D9784B0:
-        m_Texture: {fileID: 2800000, guid: 39d71024f26d5fb4ab01bc1cca188c0b, type: 3}
+        m_Texture: {fileID: 2800000, guid: c7f70c34492c7264bbb84d339b60d96c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -52,10 +52,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_13182C61: 0.04
-    - Vector1_717E75F6: 0.621
-    - Vector1_8A356CD7: 0.929
-    - Vector1_F9839924: 0.439
+    - Vector1_13182C61: 0.26
+    - Vector1_717E75F6: 0
+    - Vector1_8A356CD7: 0
+    - Vector1_F9839924: 0.433
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -78,7 +78,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_32880893: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0}
+    - Color_32880893: {r: 0.745283, g: 0.25663045, b: 0.5198164, a: 0}
     - Color_3E9C38C4: {r: 0.50985926, g: 0.5030705, b: 0.8018868, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
