@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sign_Toon 1
+  m_Name: Onsen Intro Toon
   m_Shader: {fileID: -6465566751694194690, guid: 9b88636ae80bf5c4a90fa670b487f5bf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -52,10 +52,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_13182C61: -1
-    - Vector1_717E75F6: 0.621
-    - Vector1_8A356CD7: 0.773
-    - Vector1_F9839924: 0.356
+    - Vector1_13182C61: 0.47
+    - Vector1_717E75F6: 0.743
+    - Vector1_8A356CD7: 0.45
+    - Vector1_F9839924: 0.697
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
