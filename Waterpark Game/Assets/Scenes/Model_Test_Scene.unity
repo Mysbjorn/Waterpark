@@ -213,6 +213,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1321137018485739048, guid: c6a9be5da80b9d2409bc4677bbd3f937, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4fac0758e3b6a9c4eb13b32b2dcc6a8f, type: 2}
+    - target: {fileID: 3805264937700369833, guid: c6a9be5da80b9d2409bc4677bbd3f937, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4fac0758e3b6a9c4eb13b32b2dcc6a8f, type: 2}
     - target: {fileID: 5053150789603299443, guid: c6a9be5da80b9d2409bc4677bbd3f937, type: 3}
       propertyPath: m_Name
       value: Rocks_1_4_Prefab
@@ -261,6 +269,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7460385572201140020, guid: c6a9be5da80b9d2409bc4677bbd3f937, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4fac0758e3b6a9c4eb13b32b2dcc6a8f, type: 2}
+    - target: {fileID: 8271787112423253463, guid: c6a9be5da80b9d2409bc4677bbd3f937, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4fac0758e3b6a9c4eb13b32b2dcc6a8f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6a9be5da80b9d2409bc4677bbd3f937, type: 3}
 --- !u!1 &1563787576
@@ -464,9 +480,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7664728788398519507, guid: 258bcdf9610593b4080232b025de8b96, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7664728788398519507, guid: 258bcdf9610593b4080232b025de8b96, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6b86154aa0a78b546ac4085f8462eb86, type: 2}
+      objectReference: {fileID: 2100000, guid: 8944539bd700ed74eb53edf9bd7301a6, type: 2}
+    - target: {fileID: -7664728788398519507, guid: 258bcdf9610593b4080232b025de8b96, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8944539bd700ed74eb53edf9bd7301a6, type: 2}
     - target: {fileID: 919132149155446097, guid: 258bcdf9610593b4080232b025de8b96, type: 3}
       propertyPath: m_Name
       value: Sandparty_Area_Blockout
@@ -480,6 +504,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1128903237820671134, guid: 38e9523a7e875014492cecca657af618, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9ce9212fee1479945b4be7646b848aa5, type: 2}
     - target: {fileID: 1489099329241695563, guid: 38e9523a7e875014492cecca657af618, type: 3}
       propertyPath: m_Name
       value: Bridge
@@ -585,6 +613,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1788480881931582284, guid: 93e900b1d16a9324a9fe2c3dbf11e75a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5167db29604391844af858f8230d21d6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93e900b1d16a9324a9fe2c3dbf11e75a, type: 3}
 --- !u!1001 &3572851979397604607
@@ -594,6 +626,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2762048335218764309, guid: 3012106e66a9dbc41a93eb9ced8c7487, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b3cd1d906049453469f673cbc5dde82c, type: 2}
     - target: {fileID: 3900091503694025082, guid: 3012106e66a9dbc41a93eb9ced8c7487, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -699,6 +735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sunbed
       objectReference: {fileID: 0}
+    - target: {fileID: 1646539211352747618, guid: 97f316ec926a2b145861ad0abb499ccd, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 05785a4a3639e824e94a43dacb938180, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97f316ec926a2b145861ad0abb499ccd, type: 3}
 --- !u!1001 &7434577519741472563
@@ -756,6 +796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: onsen_intro_ground_mesh
       objectReference: {fileID: 0}
+    - target: {fileID: 6194728363383073189, guid: cc521e6478333c94caee5182111eb48c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd3e204aa5f9e804ca0ae4f294a9c4d6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc521e6478333c94caee5182111eb48c, type: 3}
 --- !u!1001 &7753162300602376865
@@ -813,6 +857,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8960282721873048733, guid: e6c0337b21d4ba04cb4d4408b537a4e3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f6418d19c660f64690073e0cc4b5a63, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6c0337b21d4ba04cb4d4408b537a4e3, type: 3}
 --- !u!1001 &8471193055494014784
@@ -822,6 +870,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5544171377237811747, guid: 8f5eac0e05f7f6e4495f53e9c7f6b6a0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b71a386fc48d0554a89f93a883af2bd7, type: 2}
     - target: {fileID: 6336606519371121654, guid: 8f5eac0e05f7f6e4495f53e9c7f6b6a0, type: 3}
       propertyPath: m_Name
       value: onsen_second_ground
@@ -927,5 +979,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2057700176096165531, guid: 9202478085dfbea4e9fc28f75b5b9f2a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 16d2ff421248e264a8e5702381f19340, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9202478085dfbea4e9fc28f75b5b9f2a, type: 3}
