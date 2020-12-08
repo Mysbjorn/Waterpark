@@ -15,15 +15,18 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI healthText;
     public Image healthImage;
     public TextMeshProUGUI coinText;
+    public GameObject UIParent;
 
     public void Awake()
     {
         instance = this;
+        
     }
 
     void Start()
     {
         swimScreen.enabled = false;
+        
     }
 
     // Update is called once per frame
@@ -46,6 +49,8 @@ public class UIManager : MonoBehaviour
             if (blackScreen.color.a == 0f)
             {
                 fadeFromBlack = false;
+                StartCoroutine(hideUI(gameObject, 1.0f,true));
+                StartCoroutine(hideUI(gameObject, 1.0f));
             }
         }
 
@@ -59,8 +64,15 @@ public class UIManager : MonoBehaviour
         if (PlayerController.instance.swimming == false)
         {
             swimScreen.enabled = false;
+            
 
+        }
 
+        IEnumerator hideUI (GameObject ui, float secondsToWait, bool show = false)
+        {
+            UIParent = ui;
+            yield return new WaitForSeconds(secondsToWait);
+            ui.SetActive(show);
         }
     }
 
