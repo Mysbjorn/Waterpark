@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour
         }
         if (swimming == true)
         {
-            
+            anim.SetBool("Swimming",true);
             gravityScale = 2f;
             jumpForce = 14;
             moveSpeed = 10;
@@ -80,8 +80,9 @@ public class PlayerController : MonoBehaviour
 
         if (swimming == false)
         {
+            anim.SetBool("Swimming", false);
             gravityScale = 5f;
-            jumpForce = 14;
+            jumpForce = 24;
             moveSpeed = 15;
         }
 
