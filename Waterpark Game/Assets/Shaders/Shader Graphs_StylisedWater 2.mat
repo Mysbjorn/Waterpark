@@ -29,8 +29,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Choppiness: 0.05
-    - _FlowSpeed: 1
-    - _FlowStrength: 0.01
+    - _FlowSpeed: 0.01
+    - _FlowStrength: 0.0075
     - _FoamDistance: 2
     - _Opacity: 1
     - _Size: 3
