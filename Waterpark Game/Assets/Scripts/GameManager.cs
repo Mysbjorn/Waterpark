@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     private Vector3 respawnPosition;
 
     public int currentCoins;
+    public int hideAndSeekers;
 
     private void Awake()
     {
@@ -58,5 +59,10 @@ public class GameManager : MonoBehaviour
     {
         currentCoins += coinsToAdd;
         UIManager.instance.coinText.text = currentCoins.ToString();
+    }
+
+    public void AddhideAndSeekers(int hideAndSeekersToAdd)
+    {
+        hideAndSeekers += hideAndSeekersToAdd;
     }
 }
