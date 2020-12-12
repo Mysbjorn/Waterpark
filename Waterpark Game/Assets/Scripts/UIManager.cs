@@ -49,8 +49,8 @@ public class UIManager : MonoBehaviour
             if (blackScreen.color.a == 0f)
             {
                 fadeFromBlack = false;
-                StartCoroutine(hideUI(gameObject, 1.0f,true));
-                StartCoroutine(hideUI(gameObject, 1.0f));
+                //StartCoroutine(hideUI(gameObject, 1.0f,true));
+                //StartCoroutine(hideUI(gameObject, 1.0f));
             }
         }
 
