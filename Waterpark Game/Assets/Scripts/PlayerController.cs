@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     public float knockBackLength = .5f;
     private float knockbackCounter;
     public Vector2 knockbackPower;
-
+    public bool updraft;
     public bool swimming;
     public float swimMoveSpeed;
     public float swimJumpForce;
@@ -70,10 +70,18 @@ public class PlayerController : MonoBehaviour
             playerModel.transform.rotation = Quaternion.Slerp(playerModel.transform.rotation, newRotation , rotateSpeed * Time.deltaTime);
         }
         }
-        if (swimming == true)
+        if (swimming == true & updraft == true)
         {
             anim.SetBool("Swimming",true);
-            gravityScale = 2f;
+            gravityScale = -2f;
+            jumpForce = 0;
+            moveSpeed = 10;
+        }
+
+        if (swimming == true & updraft == false)
+        {
+            anim.SetBool("Swimming", true);
+            gravityScale = 3f;
             jumpForce = 14;
             moveSpeed = 10;
         }
