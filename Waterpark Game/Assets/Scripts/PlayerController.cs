@@ -9,6 +9,9 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     public float gravityScale = 5f;
 
+    private float slopeForce;
+    private float slopeForceRayLength;
+
     private Vector3 moveDirection;
 
     public CharacterController charController;
@@ -60,6 +63,10 @@ public class PlayerController : MonoBehaviour
 
         }
 
+            if ((Input.GetAxisRaw("Horizontal") !=0 || Input.GetAxisRaw("Vertical") != 0) && Onslope())
+            {
+                charController.Move(Vector3.down * charController.height / 2 * slopeForce * Time.deltaTime);
+            }
         moveDirection.y += Physics.gravity.y * Time.deltaTime * gravityScale;
    
         charController.Move(moveDirection * Time.deltaTime);
@@ -94,7 +101,6 @@ public class PlayerController : MonoBehaviour
             moveSpeed = 15;
         }
 
-
         if (isKnocking)
         {
             knockbackCounter -= Time.deltaTime;
@@ -123,5 +129,18 @@ public class PlayerController : MonoBehaviour
         knockbackCounter = knockBackLength;
         moveDirection.y = knockbackPower.y;
         charController.Move(moveDirection * Time.deltaTime);
+    }
+
+    private bool Onslope()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, charController.height / 2 * slopeForceRayLength)) ;
+        {
+            if (hit.normal != Vector3.up)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
