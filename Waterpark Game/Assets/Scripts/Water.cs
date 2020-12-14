@@ -16,7 +16,7 @@ public class Water : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Nu simmar du");
-            PlayerController.instance.swimming = true;
+            PlayerController1.instance.swimming = true;
         }
     }
 
@@ -25,7 +25,7 @@ public class Water : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Hej?!");
-            PlayerController.instance.swimming = false;
+            PlayerController1.instance.swimming = false;
         }
     }
 

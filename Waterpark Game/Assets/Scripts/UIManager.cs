@@ -54,14 +54,14 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        if (PlayerController.instance.swimming == true)
+        if (PlayerController1.instance.swimming == true)
         {
             swimScreen.enabled = true;
 
 
         }
 
-        if (PlayerController.instance.swimming == false)
+        if (PlayerController1.instance.swimming == false)
         {
             swimScreen.enabled = false;
             

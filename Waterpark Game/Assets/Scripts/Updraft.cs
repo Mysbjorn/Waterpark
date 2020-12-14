@@ -16,7 +16,7 @@ public class Updraft : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Nu simmar du");
-            PlayerController.instance.updraft = true;
+            PlayerController1.instance.updraft = true;
         }
     }
 
@@ -25,7 +25,7 @@ public class Updraft : MonoBehaviour
         if (other.tag == "Player")
         {
             Debug.Log("Hej?!");
-            PlayerController.instance.updraft = false;
+            PlayerController1.instance.updraft = false;
         }
     }
 
