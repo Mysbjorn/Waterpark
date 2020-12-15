@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon_Body_Purple
+  m_Name: Toon_Hair_Neo_Brown
   m_Shader: {fileID: -6465566751694194690, guid: 9b88636ae80bf5c4a90fa670b487f5bf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_5D9784B0:
-        m_Texture: {fileID: 2800000, guid: b20aca27e924bd44cb080c7ebd4bb153, type: 3}
+        m_Texture: {fileID: 2800000, guid: 36086d117a21d3b41b736d1126c36185, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -52,10 +52,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_13182C61: 0.26
-    - Vector1_717E75F6: 0.771
-    - Vector1_8A356CD7: 0.486
-    - Vector1_F9839924: 0.649
+    - Vector1_13182C61: -0.49
+    - Vector1_717E75F6: 0.876
+    - Vector1_8A356CD7: 0.744
+    - Vector1_F9839924: 0.701
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -78,8 +78,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_32880893: {r: 0.4297406, g: 0.34362763, b: 0.6226415, a: 1}
-    - Color_3E9C38C4: {r: 0.60499436, g: 0.44010326, b: 0.8113208, a: 0}
+    - Color_32880893: {r: 0.7169812, g: 0.4099129, b: 0.1251335, a: 1}
+    - Color_3E9C38C4: {r: 0.6698113, g: 0.6148748, b: 0.5276344, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
