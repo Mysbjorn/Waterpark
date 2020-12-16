@@ -8,6 +8,7 @@ public class PlayerController1 : MonoBehaviour
     public float moveSpeed;
     public float jumpForce;
     public float gravityScale = 5f;
+    public ParticleSystem dust;
 
     private float slopeForce = 0.5f;
     private float slopeForceRayLength = 0.4f;
@@ -71,6 +72,7 @@ public class PlayerController1 : MonoBehaviour
             {
 
                 charController.Move(Vector3.down * charController.height / 2 * slopeForce * Time.deltaTime);
+                    
             }
             }
 
@@ -83,7 +85,8 @@ public class PlayerController1 : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, theCam.transform.rotation.eulerAngles.y, 0f);
             Quaternion newRotation = Quaternion.LookRotation(new Vector3(moveDirection.x, 0f, moveDirection.z));
             playerModel.transform.rotation = Quaternion.Slerp(playerModel.transform.rotation, newRotation , rotateSpeed * Time.deltaTime);
-        }
+                CreateDust();
+            }
         }
 
 
@@ -160,5 +163,9 @@ public class PlayerController1 : MonoBehaviour
         }
     }
 
+    public void CreateDust()
+    {
+        dust.Play();
+    }
 
 }
