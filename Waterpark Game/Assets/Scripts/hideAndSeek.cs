@@ -5,7 +5,7 @@ using UnityEngine;
 public class hideAndSeek : MonoBehaviour
 {
     public int value;
-
+    public int soundToPlay;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +14,7 @@ public class hideAndSeek : MonoBehaviour
             GameManager.instance.AddhideAndSeekers(value);
             Destroy(gameObject);
             Debug.Log("Found ya!");
+            //AudioManager.instance.PlaySFX(soundToPlay);
         }
     }
 }

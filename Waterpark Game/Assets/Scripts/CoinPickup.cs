@@ -5,6 +5,7 @@ using UnityEngine;
 public class CoinPickup : MonoBehaviour
 {
     public int value;
+    public int soundToPlay;
     void Start()
     {
         
@@ -23,6 +24,7 @@ public class CoinPickup : MonoBehaviour
             GameManager.instance.AddCoins(value);
 
             Destroy(gameObject);
+            //AudioManager.instance.PlaySFX(soundToPlay);
         }
     }
 }
