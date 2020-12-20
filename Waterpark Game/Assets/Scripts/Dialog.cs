@@ -47,5 +47,13 @@ public class Dialog : MonoBehaviour
         NextSentence();
         yield return new WaitForSeconds(10f);
         NextSentence();
+        yield return new WaitForSeconds(10f);
+        NextSentence();
+        yield return new WaitForSeconds(10f);
+        NextSentence();
+        yield return new WaitForSeconds(10f);
+        NextSentence();
+        yield return new WaitForSeconds(10f);
+        NextSentence();
     }
 }
