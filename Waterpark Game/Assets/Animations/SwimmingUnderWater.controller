@@ -10,8 +10,8 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
-    m_State: {fileID: -6790449475300249530}
-    m_Position: {x: 280, y: 160, z: 0}
+    m_State: {fileID: -6031477209692456802}
+    m_Position: {x: 401.10095, y: 319.2514, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -21,15 +21,15 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -6790449475300249530}
---- !u!1102 &-6790449475300249530
+  m_DefaultState: {fileID: -6031477209692456802}
+--- !u!1102 &-6031477209692456802
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mixamo_com
+  m_Name: SwimmingUnerWater_anim
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -42,7 +42,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: eaabeef2199fcd346921d53bf6485d19, type: 3}
+  m_Motion: {fileID: -203655887218126122, guid: e6a64ec0318a5a44b89950d040221c86, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -54,7 +54,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sleeping
+  m_Name: SwimmingUnderWater
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
