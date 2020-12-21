@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
     private void OnMouseOver()
     {
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if (distance <= 2.5f)
+        if (distance <= 3.5f)
         {
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
@@ -46,6 +46,7 @@ public class DialogueManager : MonoBehaviour
                 if (curResponseTracker <=0)
                 {
                     curResponseTracker = 0;
+                    
                 }
             }
             if (Input.GetKeyDown(KeyCode.E) && isTalking == false)
@@ -63,6 +64,7 @@ public class DialogueManager : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.R))
                 {
                     dialogueBox.text = npc.dialog[1];
+                    Debug.Log("Derp");
                 }
             }
             else if (curResponseTracker == 1 && npc.Playerdialog.Length >= 1)
@@ -91,6 +93,7 @@ public class DialogueManager : MonoBehaviour
         dialgogueUI.SetActive(true);
         npcName.text = npc.name;
         dialogueBox.text = npc.dialog[0];
+        PlayerController.instance.charController.enabled = false;
 
     }
 
@@ -98,6 +101,7 @@ public class DialogueManager : MonoBehaviour
     {
         isTalking = false;
         dialgogueUI.SetActive(false);
+        PlayerController.instance.charController.enabled = true;
 
     }
 }
