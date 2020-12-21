@@ -9,16 +9,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bc89ec2c473161469f9f10613830dcb, type: 3}
+  m_Script: {fileID: 11500000, guid: b7a3e2e58a868774da5d2cf8d0bc4226, type: 3}
   m_Name: Kappa
   m_EditorClassIdentifier: 
   name: Kappa
   dialog:
-  - Hej Hej
-  - Allt bra?
-  - Ja
-  - "Oj d\xE5"
+  - HELLO WELCOME TO KAPPANS ONSENLAND, I AM KAPPAN THE KAPPA IF YOU HAVE QUESTIONS
+    I AM YOUR GUY
+  - WHATEVER YOU WANT, I WISH I HAD THE FREEDOM YOU HAD RIGHT NOW. IM STARVING FOR
+    SOME PICKLES RIGHT NOW
+  - THIS IS KAPPANS ONSENLAND, ONSENLAND IS SPLIT INTO 3 MAIN AREAS, THE CLASSIC
+    JAPANESE BATHHOUSE AREA, THE JADE MOUNTAIN AREA, AND THE SPA HOUSE WITH THE POOL
+    IF YOU ARE MORE INTO TRADITIONAL BEACH VIBES.
+  - I HAVE NO IDEA WHAT YOU ARE TALKING ABOUT HAHAHAHAHAHAH
   Playerdialog:
-  - "N\xE4men tjena"
-  - "\xC4r allt bra"
-  - Oj va du luktar
+  - What do i do here?!
+  - What is this place?
+  - You seem familiar...
