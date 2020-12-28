@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon Mountain
+  m_Name: Toon_Statue
   m_Shader: {fileID: -6465566751694194690, guid: 9b88636ae80bf5c4a90fa670b487f5bf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_5D9784B0:
-        m_Texture: {fileID: 2800000, guid: 3579a6bf58edd81419666720a614ea01, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4d328fc7e7f42e849b564f36e6ab69e8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -78,8 +78,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_32880893: {r: 0.9858491, g: 0.98828304, b: 1, a: 1}
-    - Color_3E9C38C4: {r: 0.14297792, g: 0.4811321, b: 0.46120897, a: 0}
+    - Color_32880893: {r: 0.48420256, g: 0.6197914, b: 0.8773585, a: 1}
+    - Color_3E9C38C4: {r: 0.104396574, g: 0.4339623, b: 0.41457605, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
