@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public int currentCoins;
     public int hideAndSeekers;
+    public int kappaShrines;
 
     private void Awake()
     {
@@ -64,5 +65,10 @@ public class GameManager : MonoBehaviour
     public void AddhideAndSeekers(int hideAndSeekersToAdd)
     {
         hideAndSeekers += hideAndSeekersToAdd;
+    }
+
+    public void AddkappaShrines(int kappaShrinesToAdd)
+    {
+        kappaShrines += kappaShrinesToAdd;
     }
 }

@@ -4940,7 +4940,7 @@ Transform:
   m_GameObject: {fileID: 6993599055283594423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 888.7, y: 1.75, z: 304.63}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6752, y: 1.6752, z: 1.6752}
   m_Children:
   - {fileID: 6993599054595901825}
   - {fileID: 5988968129274539878}
@@ -4974,3 +4974,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   value: 1
   soundToPlay: 0
+  pickupEffect: {fileID: 0}
