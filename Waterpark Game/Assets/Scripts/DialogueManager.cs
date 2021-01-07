@@ -18,6 +18,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI npcName;
     public TextMeshProUGUI dialogueBox;
     public TextMeshProUGUI playerResponse;
+    public GameObject npcCam;
 
     private void Start()
     {
@@ -88,6 +89,7 @@ public class DialogueManager : MonoBehaviour
 
     void StartConversation()
     {
+        npcCam.SetActive(true);
         isTalking = true;
         curResponseTracker = 0;
         dialgogueUI.SetActive(true);
@@ -99,6 +101,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        npcCam.SetActive(false);
         isTalking = false;
         dialgogueUI.SetActive(false);
         PlayerController.instance.charController.enabled = true;
