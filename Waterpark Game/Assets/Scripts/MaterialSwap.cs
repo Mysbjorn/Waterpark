@@ -11,8 +11,9 @@ public class MaterialSwap : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player" && GameManager.instance.currentCoins == cost)
+        if (other.tag == "Player" && GameManager.instance.currentCoins >= cost)
         {
+            Debug.Log("fittslem");
             girlMesh.GetComponent<SkinnedMeshRenderer>().material = material;
         }
     }
