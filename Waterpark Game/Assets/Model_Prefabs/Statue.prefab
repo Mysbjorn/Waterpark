@@ -1,5 +1,65 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &434284336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 434284337}
+  - component: {fileID: 434284339}
+  - component: {fileID: 434284338}
+  m_Layer: 0
+  m_Name: Shrine Collider (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &434284337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434284336}
+  m_LocalRotation: {x: 0.00654178, y: -0.71007806, z: 0.01827134, w: 0.70385545}
+  m_LocalPosition: {x: 2.42, y: -4.33, z: -0.37}
+  m_LocalScale: {x: 0.691324, y: 0.69132376, z: 0.69132406}
+  m_Children: []
+  m_Father: {fileID: 2657014692082964483}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2.015, y: -90.488, z: 0.942}
+--- !u!114 &434284339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434284336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e601e21a08e97634ca8cc9fc859a170f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 1
+  soundToPlay: 0
+  pickupEffect: {fileID: 390692738216547912, guid: 02718d5d3d5ba5e4eaf6830a48fc6649, type: 3}
+--- !u!65 &434284338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434284336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.4641047, y: 9.806528, z: 8.07901}
+  m_Center: {x: 3.232089, y: 2.570323, z: 3.5394642}
 --- !u!1 &3428449210564412089
 GameObject:
   m_ObjectHideFlags: 0
@@ -26,10 +86,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3428449210564412089}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 30.47231, y: 44.079685, z: 85.30722}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_LocalScale: {x: 1.4465, y: 1.4465001, z: 1.4465001}
+  m_Children:
+  - {fileID: 434284337}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -60,7 +121,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9d0ecfec71715254f84fd73dad10549f, type: 2}
+  - {fileID: 2100000, guid: 3b62093add6c60946aa70ab270f20418, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
