@@ -79,10 +79,20 @@ public class DialogueManager : MonoBehaviour
             else if (curResponseTracker == 2 && npc.Playerdialog.Length >= 2)
             {
                 playerResponse.text = npc.Playerdialog[2];
-                if (Input.GetKeyDown(KeyCode.R))
+                if (Input.GetKeyDown(KeyCode.R) && GameManager.instance.kappaShrines == 1)
                 {
                     dialogueBox.text = npc.dialog[3];
+                    Debug.Log("u win");
+
                 }
+
+                if (Input.GetKeyDown(KeyCode.R) && GameManager.instance.kappaShrines == 0)
+                {
+                    dialogueBox.text = npc.dialog[3];
+                    Debug.Log("Come back when u got all the shrines");
+
+                }
+
             }
         }
     }
