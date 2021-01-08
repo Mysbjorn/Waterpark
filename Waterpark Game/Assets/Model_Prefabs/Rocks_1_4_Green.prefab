@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7970738230519863013}
   - component: {fileID: 1410313445883641216}
   - component: {fileID: 6953292821273362823}
-  - component: {fileID: 6210205394622807976}
+  - component: {fileID: 7138540541223667682}
   m_Layer: 0
   m_Name: Rock_1_LP
   m_TagString: Untagged
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6210205394622807976
-BoxCollider:
+--- !u!64 &7138540541223667682
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,9 +92,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.4383948, y: 4.836047, z: 3.528486}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 595155732033683235, guid: 5d0442f60fe7b7d4e8ee28dc8cecf78c, type: 3}
 --- !u!1 &4636436038694334368
 GameObject:
   m_ObjectHideFlags: 0
@@ -106,7 +107,7 @@ GameObject:
   - component: {fileID: 639857285813148506}
   - component: {fileID: 3900134879012211745}
   - component: {fileID: 63573112781253240}
-  - component: {fileID: 6102621666982896275}
+  - component: {fileID: 3877764482291077447}
   m_Layer: 0
   m_Name: Rock_3_LP
   m_TagString: Untagged
@@ -177,8 +178,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6102621666982896275
-BoxCollider:
+--- !u!64 &3877764482291077447
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -187,9 +188,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.4025307, y: 0.7510963, z: 2.3196464}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9058062237382586152, guid: 5d0442f60fe7b7d4e8ee28dc8cecf78c, type: 3}
 --- !u!1 &6094533202388169763
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,7 +237,7 @@ GameObject:
   - component: {fileID: 4225256934621592949}
   - component: {fileID: 1395341088282598258}
   - component: {fileID: 8447865939543599972}
-  - component: {fileID: 459544481764898203}
+  - component: {fileID: 888485678844682346}
   m_Layer: 0
   m_Name: Rock_2_LP
   m_TagString: Untagged
@@ -306,8 +308,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &459544481764898203
-BoxCollider:
+--- !u!64 &888485678844682346
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -316,9 +318,10 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 3.5171504, y: 4.8073683, z: 3.5490472}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3228244533823433283, guid: 5d0442f60fe7b7d4e8ee28dc8cecf78c, type: 3}
 --- !u!1 &8507991717772982404
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +333,7 @@ GameObject:
   - component: {fileID: 1376617941016949749}
   - component: {fileID: 3230470812979415013}
   - component: {fileID: 2772880614183961081}
-  - component: {fileID: 3528525489952310804}
+  - component: {fileID: 5878512362480073222}
   m_Layer: 0
   m_Name: Rock_4_LP
   m_TagString: Untagged
@@ -401,8 +404,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3528525489952310804
-BoxCollider:
+--- !u!64 &5878512362480073222
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -411,6 +414,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.6469054, y: 1.6538364, z: 1.6620784}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8370147497373931602, guid: 5d0442f60fe7b7d4e8ee28dc8cecf78c, type: 3}
