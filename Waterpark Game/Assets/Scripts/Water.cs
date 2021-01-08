@@ -13,20 +13,19 @@ public class Water : MonoBehaviour
     // Update is called once per frame
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && PlayerController1.instance.swimming == false)
         {
             Debug.Log("Nu simmar du");
             PlayerController1.instance.swimming = true;
         }
-    }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Player")
+        else if (other.tag == "Player" && PlayerController1.instance.swimming == true)
         {
-            Debug.Log("Hej?!");
             PlayerController1.instance.swimming = false;
         }
+    
     }
+
+    
 
 }

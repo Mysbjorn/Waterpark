@@ -79,7 +79,7 @@ public class DialogueManager : MonoBehaviour
             else if (curResponseTracker == 2 && npc.Playerdialog.Length >= 2)
             {
                 playerResponse.text = npc.Playerdialog[2];
-                if (Input.GetKeyDown(KeyCode.R) && GameManager.instance.kappaShrines == 1)
+                if (Input.GetKeyDown(KeyCode.R) && GameManager.instance.kappaShrines == 4)
                 {
                     dialogueBox.text = npc.dialog[3];
                     Debug.Log("u win");
