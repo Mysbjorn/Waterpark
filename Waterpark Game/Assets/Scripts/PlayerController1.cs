@@ -153,7 +153,7 @@ public class PlayerController1 : MonoBehaviour
             moveDirection.y = jumpForce;
         }
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, charController.height / 2 * slopeForceRayLength)) ;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, charController.height / 2 * slopeForceRayLength));
         {
             if (hit.normal != Vector3.up)
             {

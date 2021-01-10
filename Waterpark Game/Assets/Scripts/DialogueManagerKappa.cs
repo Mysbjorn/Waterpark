@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DialogueManager : MonoBehaviour
+public class DialogueManagerKappa : MonoBehaviour
 {
     public NPC npc;
 
@@ -19,6 +19,10 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI dialogueBox;
     public TextMeshProUGUI playerResponse;
     public GameObject npcCam;
+    public GameObject endCam;
+    public GameObject UI;
+    public GameObject head;
+    public bool gamefinished = false; 
 
     private void Start()
     {
@@ -54,9 +58,14 @@ public class DialogueManager : MonoBehaviour
             {
                 StartConversation();
             }
-            else if (Input.GetKeyDown(KeyCode.E) && isTalking == true)
+            else if (Input.GetKeyDown(KeyCode.E) && isTalking == true && gamefinished == false)
             {
                 EndDialogue();
+            }
+
+            else if (Input.GetKeyDown(KeyCode.E) && isTalking == true && gamefinished == true)
+            {
+                EndGame();
             }
 
             if (curResponseTracker == 0 && npc.Playerdialog.Length >= 0)
@@ -81,8 +90,10 @@ public class DialogueManager : MonoBehaviour
                 playerResponse.text = npc.Playerdialog[2];
                 if (Input.GetKeyDown(KeyCode.R) && GameManager.instance.kappaShrines == 4)
                 {
-                    dialogueBox.text = npc.dialog[3];
-                    Debug.Log("u win");
+                    gamefinished = true;
+                    dialogueBox.text = npc.dialog[4];
+                    head.SetActive(false);
+                    
 
                 }
 
@@ -116,5 +127,11 @@ public class DialogueManager : MonoBehaviour
         dialgogueUI.SetActive(false);
         PlayerController.instance.charController.enabled = true;
 
+    }
+
+    void EndGame()
+    {
+        UI.SetActive(false);
+        endCam.SetActive(true);
     }
 }
