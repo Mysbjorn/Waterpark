@@ -85,6 +85,15 @@ public class DialogueManagerKappa : MonoBehaviour
                     dialogueBox.text = npc.dialog[2];
                 }
             }
+
+            else if (curResponseTracker == 3 && npc.Playerdialog.Length >= 3)
+            {
+                playerResponse.text = npc.Playerdialog[3];
+                if (Input.GetKeyDown(KeyCode.R))
+                {
+                    dialogueBox.text = npc.dialog[5];
+                }
+            }
             else if (curResponseTracker == 2 && npc.Playerdialog.Length >= 2)
             {
                 playerResponse.text = npc.Playerdialog[2];
@@ -104,6 +113,7 @@ public class DialogueManagerKappa : MonoBehaviour
 
                 }
 
+               
             }
         }
     }
