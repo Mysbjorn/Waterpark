@@ -6,6 +6,7 @@ public class KappaShrine : MonoBehaviour
 {
     public int value;
     public int soundToPlay;
+    public Transform position;
     public GameObject pickupEffect;
     void Start()
     {
@@ -25,7 +26,7 @@ public class KappaShrine : MonoBehaviour
             GameManager.instance.AddkappaShrines(value);
 
             Destroy(gameObject);
-            Instantiate(pickupEffect, transform.position, transform.rotation);
+            Instantiate(pickupEffect, position.position, transform.rotation);
             //AudioManager.instance.PlaySFX(soundToPlay);
         }
     }
