@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a3e2e58a868774da5d2cf8d0bc4226, type: 3}
+  m_Name: Spookie
+  m_EditorClassIdentifier: 
+  name: Spookie
+  dialog:
+  - Ehrm..excuse me? You are blocking the rays dear!
+  - Oh but we are..hiding from our responsibilities that is!
+  - 'Wow slow down there tiger not everyone can wear this exclusive Kappoland swimsuit!
+    You gotta collect a hefty bunch of kappo medals to show that you are up to the
+    task! You can find the booth in the big onsenhouse, just check the sheet to see
+    which one you want. '
+  Playerdialog:
+  - Weren't you guys supposed to be hiding?!
+  - 'Where did you get that swimsuit, i want it. '
