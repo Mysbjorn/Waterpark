@@ -15,10 +15,13 @@ public class AudioManager : MonoBehaviour
         Playmusic(LevelMusicToPlay);
     }
 
+  
     // Update is called once per frame
     void Update()
     {
-        
+
+
+   
     }
 
     public void Playmusic(int musicToPlay)

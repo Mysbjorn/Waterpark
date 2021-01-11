@@ -5,8 +5,8 @@ using UnityEngine;
 public class CoinPickup : MonoBehaviour
 {
     public int value;
-    public int soundToPlay;
     public GameObject pickupEffect;
+    public AudioSource soundEffect;
     void Start()
     {
         
@@ -26,7 +26,8 @@ public class CoinPickup : MonoBehaviour
 
             Destroy(gameObject);
             Instantiate(pickupEffect, transform.position, transform.rotation);
-            //AudioManager.instance.PlaySFX(soundToPlay);
+            soundEffect.Play();
+
         }
     }
 }
