@@ -28,8 +28,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_C998A8A9: 1
     - _Choppiness: 0.05
-    - _FlowSpeed: 1
+    - _FlowSpeed: 0.3
     - _FlowStrength: 0.01
     - _FoamDistance: 2
     - _Opacity: 1
