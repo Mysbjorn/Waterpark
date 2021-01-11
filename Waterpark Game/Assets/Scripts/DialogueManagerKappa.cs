@@ -106,7 +106,7 @@ public class DialogueManagerKappa : MonoBehaviour
 
                 }
 
-                if (Input.GetKeyDown(KeyCode.R) && GameManager.instance.kappaShrines == 0)
+                if (Input.GetKeyDown(KeyCode.R) && GameManager.instance.kappaShrines < 4)
                 {
                     dialogueBox.text = npc.dialog[3];
                     Debug.Log("Come back when u got all the shrines");
