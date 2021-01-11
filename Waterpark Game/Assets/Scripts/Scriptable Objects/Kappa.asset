@@ -12,17 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7a3e2e58a868774da5d2cf8d0bc4226, type: 3}
   m_Name: Kappa
   m_EditorClassIdentifier: 
-  name: Kappa
+  name: Kaptain Kappo
   dialog:
-  - HELLO WELCOME TO KAPPANS ONSENLAND, I AM KAPPAN THE KAPPA IF YOU HAVE QUESTIONS
-    I AM YOUR GUY
-  - WHATEVER YOU WANT, I WISH I HAD THE FREEDOM YOU HAD RIGHT NOW. IM STARVING FOR
-    SOME PICKLES RIGHT NOW
-  - THIS IS KAPPANS ONSENLAND, ONSENLAND IS SPLIT INTO 3 MAIN AREAS, THE CLASSIC
-    JAPANESE BATHHOUSE AREA, THE JADE MOUNTAIN AREA, AND THE SPA HOUSE WITH THE POOL
-    IF YOU ARE MORE INTO TRADITIONAL BEACH VIBES.
-  - I HAVE NO IDEA WHAT YOU ARE TALKING ABOUT HAHAHAHAHAHAH
+  - Oh wow! You found Kaptain Kappos secret shrine! You should be very proud, not
+    every kid is brave enough to go up all those stairs!
+  - "Ok first of all im not a penguin, i\xB4m a Kappa the mythical japanese yokai
+    who is known for drowning people...why i am representing a water park for children,
+    that i do not know..but yeah! Some respect thank you. "
+  - 'Aha! Glad you asked, this my child is a KAPPO SHRINE! There are currently four
+    of these badboys around here, who knows something good might happen if you find
+    them all! Simply go near it and it will recognize your presence and notify me
+    of your progress! '
+  - Oh no can do little one, that would surely send me to an early grave! We kappas
+    may be magical but we cant survive headless!
+  - "What!?! They told on me?! Weaklings, oh well this suit was getting stinky anyway.
+    Lets go get food, i haven\xB4t had my lunch yet. IM STARVING."
+  - 'Tihi! Hmm.. your friends you say, now that i think about it i did see one of
+    them playing around in the water beyond the geyser area. And another one was
+    heading for the Onsen mansion! '
   Playerdialog:
-  - What do i do here?!
-  - What is this place?
-  - You seem familiar...
+  - What are you? Some sort of..gassy penguin?
+  - What is up with the old stone thingy!
+  - Take of your head!
+  - 'Have you seen my friends? '
