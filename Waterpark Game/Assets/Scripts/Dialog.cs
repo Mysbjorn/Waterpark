@@ -43,17 +43,17 @@ public class Dialog : MonoBehaviour
 
     IEnumerator timedSpeech()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(150f);
         NextSentence();
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(150f);
         NextSentence();
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(150f);
         NextSentence();
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(150f);
         NextSentence();
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(150f);
         NextSentence();
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(150f);
         NextSentence();
     }
 }
