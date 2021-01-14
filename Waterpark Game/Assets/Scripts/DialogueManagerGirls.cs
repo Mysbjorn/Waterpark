@@ -19,12 +19,13 @@ public class DialogueManagerGirls : MonoBehaviour
     public TextMeshProUGUI dialogueBox1;
     public TextMeshProUGUI playerResponse1;
     public GameObject npcCam1;
+    public GameObject talkUI;
    
 
     private void Start()
     {
         dialgogueUI1.SetActive(false);
-
+        talkUI.SetActive(false);
     }
 
     private void OnMouseOver()
@@ -32,6 +33,7 @@ public class DialogueManagerGirls : MonoBehaviour
         distance1 = Vector3.Distance(player1.transform.position, this.transform.position);
         if (distance1 <= 3.5f)
         {
+            talkUI.SetActive(true);
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
                 Debug.Log("-1");
@@ -78,7 +80,12 @@ public class DialogueManagerGirls : MonoBehaviour
                 }
             }
         }
+        else
+        {
+            talkUI.SetActive(false);
+        }
     }
+
 
     void StartConversation1()
     {
@@ -89,7 +96,7 @@ public class DialogueManagerGirls : MonoBehaviour
         npcName1.text = npc1.name;
         dialogueBox1.text = npc1.dialog[0];
         PlayerController.instance.charController.enabled = false;
-
+        talkUI.SetActive(false);
     }
 
     void EndDialogue1()

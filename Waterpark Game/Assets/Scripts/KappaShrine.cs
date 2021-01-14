@@ -8,6 +8,7 @@ public class KappaShrine : MonoBehaviour
     public int soundToPlay;
     public Transform position;
     public GameObject pickupEffect;
+    public AudioSource soundEffect;
     void Start()
     {
 
@@ -27,7 +28,7 @@ public class KappaShrine : MonoBehaviour
 
             Destroy(gameObject);
             Instantiate(pickupEffect, position.position, transform.rotation);
-            //AudioManager.instance.PlaySFX(soundToPlay);
+            soundEffect.Play();
         }
     }
 }

@@ -22,12 +22,13 @@ public class DialogueManagerKappa : MonoBehaviour
     public GameObject endCam;
     public GameObject UI;
     public GameObject head;
-    public bool gamefinished = false; 
+    public bool gamefinished = false;
+    public GameObject talkUI;
 
     private void Start()
     {
         dialgogueUI.SetActive(false);
-
+        talkUI.SetActive(false);
     }
 
     private void OnMouseOver()
@@ -35,6 +36,7 @@ public class DialogueManagerKappa : MonoBehaviour
         distance = Vector3.Distance(player.transform.position, this.transform.position);
         if (distance <= 3.5f)
         {
+            talkUI.SetActive(true);
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
                 Debug.Log("-1");
@@ -113,9 +115,12 @@ public class DialogueManagerKappa : MonoBehaviour
 
                 }
 
-               
             }
         }
+                else
+                {
+                    talkUI.SetActive(false);
+                }
     }
 
     void StartConversation()
@@ -127,7 +132,7 @@ public class DialogueManagerKappa : MonoBehaviour
         npcName.text = npc.name;
         dialogueBox.text = npc.dialog[0];
         PlayerController.instance.charController.enabled = false;
-
+        talkUI.SetActive(false);
     }
 
     void EndDialogue()
@@ -136,12 +141,22 @@ public class DialogueManagerKappa : MonoBehaviour
         isTalking = false;
         dialgogueUI.SetActive(false);
         PlayerController.instance.charController.enabled = true;
-
+        talkUI.SetActive(false);
     }
 
     void EndGame()
     {
+        talkUI.SetActive(false);
         UI.SetActive(false);
         endCam.SetActive(true);
+        StartCoroutine(QuitGame());
+    }
+
+    IEnumerator QuitGame()
+    {
+        yield return new WaitForSeconds(10f);
+        Application.Quit();
+      
+  
     }
 }
