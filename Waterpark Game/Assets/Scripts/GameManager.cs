@@ -60,15 +60,19 @@ public class GameManager : MonoBehaviour
     {
         currentCoins += coinsToAdd;
         UIManager.instance.coinText.text = currentCoins.ToString();
+        UIManager.instance.coinOBJ.text = currentCoins.ToString();
     }
 
     public void AddhideAndSeekers(int hideAndSeekersToAdd)
     {
         hideAndSeekers += hideAndSeekersToAdd;
+        UIManager.instance.girlOBJ.text = hideAndSeekers.ToString();
+
     }
 
     public void AddkappaShrines(int kappaShrinesToAdd)
     {
         kappaShrines += kappaShrinesToAdd;
+        UIManager.instance.shrineOBJ.text = kappaShrines.ToString();
     }
 }

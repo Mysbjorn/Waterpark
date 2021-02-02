@@ -15,6 +15,9 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI healthText;
     public Image healthImage;
     public TextMeshProUGUI coinText;
+    public TextMeshProUGUI coinOBJ;
+    public TextMeshProUGUI shrineOBJ;
+    public TextMeshProUGUI girlOBJ;
     public GameObject UIParent;
 
     public void Awake()
